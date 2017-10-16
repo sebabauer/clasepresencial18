@@ -15,8 +15,11 @@
 
 a = 10
 a.times do |i|
-  puts i
-  if i.even?
+  
+  if i.odd?
     puts 'par'
+  else
+  	puts i+1
   end
+
 end
